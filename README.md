@@ -39,14 +39,14 @@ $ python barcode.py example_R2.fastq out/outputfilename_r2.txt 1 r2
 ```
 Using the output from the previous code, align R2 reads to reference sequences by executing the following R script using the code below. This is the longest step to execute and takes ~10hr/10^6 reads. Parallelization can speed this step up greatly.
 ```
-$ Rscript get_alignment_score_and_start_site_read_shift_cl.R ../scripts_for_barcode_calling/out/outputfilename_r2.txt 
+$ Rscript get_alignment_score_and_start_site_read_shift_cl.R ../barcode_calling/out/outputfilename_r2.txt 
 ```
 The output file of this script contains the suffix `_TSScall.txt`. In this case, outputfilename_r2_TSScall.txt
 
 Compute TSS_distribution.txt file from previous output by performing the following command line operation:
 
 ```
-$ awk -F "," '{A[$5" "$9]++; T[$5]++; t[$5" “$9]=$5;} END{for(i in A) print i, A[i], T[t[i]]}’ ../scripts_for_barcode_calling/out/outputfilename_r2.txt_TSScall.txt | sort -n > TSS_distribution.txt
+$ awk -F "," '{A[$5" "$9]++; T[$5]++; t[$5" “$9]=$5;} END{for(i in A) print i, A[i], T[t[i]]}’ ../Alignment_and_TSS/out/outputfilename_r2.txt_TSScall.txt | sort -n > TSS_distribution.txt
 ```
 
 Estimate TSS locations by executing the code below using an example file of TSS read start positions for each construct (TSS_distribution_sample.txt). 
