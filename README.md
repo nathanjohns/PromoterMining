@@ -2,7 +2,7 @@
 
 Code and materials from paper **"Metagenomic mining of regulatory elements enables programmable species-selective gene expression"**
 Nathan I. Johns*, Antonio L.C. Gomes*, Sung Sun Yim, Anthony Yang, Tomasz Blazejewski, Christopher S. Smillie, Mark B. Smith, Eric J. Alm, Sriram Kosuri, Harris H. Wang
-Nature Methods (2018)
+*Nature Methods* (2018)
 *Denotes equal contribution
 
 Supplemental information: (insert link when published)
