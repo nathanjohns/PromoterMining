@@ -5,6 +5,8 @@ Nathan I. Johns*, Antonio L.C. Gomes*, Sung Sun Yim, Anthony Yang, Tomasz Blazej
 *Nature Methods* (2018)
 *Denotes equal contribution
 
+Manuscript: (insert link when published)
+
 Supplemental information: (insert link when published)
 
 Protocol Exchange: (insert link when published)
