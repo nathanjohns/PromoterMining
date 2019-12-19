@@ -1,7 +1,9 @@
 # PromoterMining
 
 ############# IMPORTANT ###########
+
 Note that an updated and simpler python-only regulatory element mining pipeline is available here: https://github.com/ssyim/DRAFTS
+
 ###################################
 
 Code and materials from paper **"Metagenomic mining of regulatory elements enables programmable species-selective gene expression"**
