@@ -2,7 +2,7 @@
 
 ############# IMPORTANT ###########
 
-Note that an updated and simpler python-only regulatory element mining pipeline is available here: https://github.com/ssyim/DRAFTS
+We developed a simpler pipeline that is exclusively in python for our more recent study using this regulatory element library: https://github.com/ssyim/DRAFTS
 
 ###################################
 
