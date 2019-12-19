@@ -2,7 +2,7 @@
 
 ############# IMPORTANT ###########
 
-We developed a simpler pipeline that is exclusively in python for our more recent study using this regulatory element library: https://github.com/ssyim/DRAFTS
+**We developed a simpler pipeline that is exclusively in python for our more recent study using this regulatory element library: https://github.com/ssyim/DRAFTS**
 
 ###################################
 
